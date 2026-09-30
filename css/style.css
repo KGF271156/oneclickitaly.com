@@ -292,7 +292,7 @@ p {
 .hero h1 em {
   font-style: italic;
   font-weight: 500;
-  color: var(--terracotta);
+  
 }
 
 .hero__tagline {
