@@ -212,7 +212,7 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--chianti);
+  background: var(--flag-red);
   clip-path: polygon(0 0, 62% 0, 50% 100%, 0 100%);
   animation: hero-diagonal-shift 10s ease-in-out infinite;
   z-index: 0;
@@ -229,12 +229,12 @@ p {
   position: relative;
   z-index: 1;
 }
-.hero h1 em { color: var(--limone); }
+.hero h1 em { color: var(--paper); }
 .hero .eyebrow { color: rgba(251,243,231,0.85); }
 
 .hero__inner { position: relative; z-index: 1; }
 
-.hero .btn--primary { background: var(--limone); color: var(--ink); }
+.hero .btn--primary { background: var(--paper); color: var(--ink); }
 .hero .btn--primary:hover { background: #fff; }
 .hero .btn--ghost { border-color: var(--paper); color: var(--paper); }
 .hero .btn--ghost:hover { background: var(--paper); color: var(--ink); }
