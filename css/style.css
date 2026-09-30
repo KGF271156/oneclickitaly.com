@@ -204,7 +204,7 @@ p {
 .hero {
   position: relative;
   overflow: hidden;
-  background: var(--limone);
+  background: var(--flag-green);
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
