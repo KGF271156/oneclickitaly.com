@@ -57,14 +57,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background:
-    repeating-linear-gradient(120deg,
-      var(--flag-green) 0px, var(--flag-green) 26px,
-      var(--paper) 26px, var(--paper) 30px,
-      var(--flag-red) 30px, var(--flag-red) 56px,
-      var(--paper) 56px, var(--paper) 60px);
-  background-size: 200% 100%;
-  animation: header-shift 18s linear infinite;
+  background: linear-gradient(100deg,
+      var(--flag-green) 0%, var(--flag-green) 34%,
+      #F7F1E2 34%, #F7F1E2 66%,
+      var(--flag-red) 66%, var(--flag-red) 100%);
+  background-size: 160% 100%;
+  animation: header-shift 26s ease-in-out infinite alternate;
   border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 @keyframes header-shift {
