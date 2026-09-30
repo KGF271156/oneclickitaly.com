@@ -229,7 +229,7 @@ p {
   position: relative;
   z-index: 1;
 }
-.hero h1 em { color: var(--paper); }
+ .hero h1 em { color: #D4A017; }
 .hero .eyebrow { color: rgba(251,243,231,0.85); }
 
 .hero__inner { position: relative; z-index: 1; }
