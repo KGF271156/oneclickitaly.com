@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wherever you are, it's still Italy · OneClickItaly</title>
+<meta name="description" content="OneClickItaly — connecting the global Italian diaspora with all 20 regions of Italy.">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/index.html"><span class="mark">One</span>ClickItaly</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="/regions/index.html" aria-current="page">Regions</a>
+      <a href="/culture/index.html">Culture</a>
+      <a href="/live/index.html">Live</a>
+      <a href="/news/index.html">News</a>
+      <a href="/food-drink/index.html">Food & Drink</a>
+      <a href="/retail/index.html">Retail</a>
+      <a href="/visit/index.html">Visit Italy</a>
+      <a href="/events/index.html">Events</a>
+      <a href="/sport/index.html">Sport</a>
+      <a href="/communities/index.html">Communities</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__inner">
+    <div>
+      <div class="hero__eyebrow-flag">
+        <span class="flag-stripe"><span class="flag-stripe__bars"></span></span>
+        <span class="eyebrow">WHEREVER YOU ARE, IT'S STILL ITALY</span>
+      </div>
+      <h1>Piazzas, pasta and <em>la dolce vita.</em></h1>
+      <p class="hero__tagline">From every corner of Italy — one platform connecting Italian communities around the world.</p>
+      <div class="hero__cta">
+        <a href="/regions/index.html" class="btn btn--primary">Explore the regions</a>
+        <a href="/communities/index.html" class="btn btn--ghost">Find your community</a>
+      </div>
+    </div>
+    <div class="hero__map-wrap">
+      <div id="italy-map-mount"></div>
+      <p class="map-caption">Click a region to explore it — from the Alps of Trentino to the shores of Sicily.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <span class="eyebrow">START HERE</span>
+    <h2>Wherever you're from, wherever you are now</h2>
+  </div>
+  <div class="section__body card-grid">
+    <div class="card">
+      <h3>20 regions, fully mapped</h3>
+      <p>Every region, its capital and its provinces — with local news and what's on close behind.</p>
+    </div>
+    <div class="card">
+      <h3>Culture beyond the postcard</h3>
+      <p>National culture overview down to the country's major cultural hubs, with original blogs and vlogs.</p>
+    </div>
+    <div class="card">
+      <h3>Events that pull you home</h3>
+      <p>Italian festivals, championships and exhibitions happening worldwide — reasons to travel, wherever you live.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="section__head">
+    <span class="eyebrow">LIVE FROM ITALY</span>
+    <h2>See it as it happens</h2>
+  </div>
+  <div class="section__body">
+    <div class="content-pending" style="background:rgba(251,243,231,0.08);border-color:rgba(251,243,231,0.25);color:var(--paper-dim);">Live cam feeds are being sourced and will appear here — see the <a href="/live/index.html" style="text-decoration:underline;">Live page</a>.</div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <h4>OneClickItaly</h4>
+      <p style="max-width:34ch;color:rgba(251,243,231,0.75);font-size:0.9rem;">Piazzas, pasta and la dolce vita from every corner of Italy — one platform connecting Italian communities around the world.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/regions/index.html">Regions</a></li>
+        <li><a href="/culture/index.html">Culture</a></li>
+        <li><a href="/live/index.html">Live</a></li>
+        <li><a href="/news/index.html">News</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Italy Abroad</h4>
+      <ul>
+        <li><a href="/events/index.html">Events</a></li>
+        <li><a href="/communities/index.html">Communities</a></li>
+        <li><a href="/food-drink/index.html">Food &amp; Drink</a></li>
+        <li><a href="/sport/index.html">Sport</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Plan a Visit</h4>
+      <ul>
+        <li><a href="/visit/index.html">Visit Italy</a></li>
+        <li><a href="/retail/index.html">Retail</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom container">
+    <p style="margin:0;">© <span id="year"></span> OneClickItaly.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
