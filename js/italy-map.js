@@ -29,8 +29,11 @@ const ITALY_REGIONS = [
 function regionHref(slug) {
   // From the homepage (root) the link is regions/<slug>.html
   // From inside /regions/ it should just be <slug>.html — handled via data-map-base on the mount element.
+  // Note: an empty string is a valid, meaningful base (means "same folder"), so we
+  // check whether the attribute was set at all rather than using `||`, which would
+  // treat "" as missing and wrongly fall back to 'regions/'.
   const mount = document.getElementById('italy-map-mount');
-  const base = (mount && mount.dataset.mapBase) || 'regions/';
+  const base = (mount && mount.dataset.mapBase !== undefined) ? mount.dataset.mapBase : 'regions/';
   return base + slug + '.html';
 }
 
@@ -85,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     })
     .catch(() => {
-      const base = mount.dataset.mapBase || 'regions/';
+      const base = (mount.dataset.mapBase !== undefined) ? mount.dataset.mapBase : 'regions/';
       const listHref = base === '' ? 'index.html' : base + 'index.html';
       mount.innerHTML = '<p style="color:var(--ink-soft);">Map unavailable right now — browse the <a href="' + listHref + '" style="color:var(--terracotta);font-weight:600;">full regions list</a> instead.</p>';
     });
