@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OneClick Italy — One platform, every Italian community</title>
-<meta name="description" content="From every corner of Italy — one platform connecting Italian communities around the world. News, culture, events and live from all 20 regions.">
+<title>Food & Drink | OneClick Italy</title>
+<meta name="description" content="Italy's regional cuisines, wines and coffee culture — the food that defines each corner of the country.">
 <link rel="stylesheet" href="css/style.css">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSD8H46614"></script>
@@ -53,59 +53,45 @@
   </nav>
 </header>
 
-<section class="hero">
+<div class="crumb wrap"><a href="index.html">Home</a> / Food & Drink</div>
+<section class="hero" style="padding:48px 0 44px;">
   <div class="wrap">
-    <div class="hero__eyebrow-flag">WHEREVER YOU ARE, IT'S STILL ITALY</div>
-    <h1>Piazzas, pasta and<br><em>la dolce vita.</em></h1>
-    <p class="hero__tagline">From every corner of Italy — one platform connecting Italian communities around the world.</p>
-    <div style="display:flex; gap:14px; flex-wrap:wrap;">
-      <a href="regions/index.html" class="btn btn--primary">Explore the 20 regions</a>
-      <a href="communities.html" class="btn btn--outline">Join a community</a>
-    </div>
+    <div class="hero__eyebrow-flag">TWENTY REGIONS, TWENTY TABLES</div>
+    <h1 style="font-size:clamp(32px,4.5vw,48px);">Food that changes <em>every hundred miles.</em></h1>
+    <p class="hero__tagline">Italian cooking isn't one cuisine — it's twenty, each fiercely defended by the region it comes from. Here's where to start.</p>
   </div>
 </section>
-
 <section class="section">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="eyebrow">Find your Italy</div>
-        <h2>Click a region to explore it</h2>
-      </div>
-      <a href="regions/index.html" class="btn-ghost">View all 20 regions →</a>
-    </div>
-    <div class="region-map-block">
-      <div>
-        <div id="italy-map-mount" data-map-src="assets/italy-map.svg" data-map-base="regions/"></div>
-        <p class="region-map-caption">Click a region to explore it — from the Alps of Trentino to the shores of Sicily.</p>
-      </div>
-      <div>
-        <div class="card" style="margin-bottom:16px;">
-          <h3>20 regions, fully mapped</h3>
-          <p>Every Italian region, from Aosta Valley to Sicily, with its own home for news, culture, food and community — built for the diaspora, not just tourists.</p>
-        </div>
-        <div class="card" style="margin-bottom:16px;">
-          <h3>Culture beyond the postcard</h3>
-          <p>Dialects, saints' days, local rivalries and the food nobody outside the region has heard of — the details that make each corner of Italy distinct.</p>
-        </div>
-        <div class="card">
-          <h3>Events that pull you home</h3>
-          <p>Sagre, festivals and feast days, tracked region by region, so you know exactly when it's worth booking the flight.</p>
-        </div>
+        <div class="eyebrow">Discover</div>
+        <h2>Regional cooking at a glance</h2>
       </div>
     </div>
+    <div class="card-grid"><div class="card"><h3>The North</h3><p>Butter, rice and cream country — risotto alla milanese, Bolognese ragù, and the Alpine cheeses and cured meats of Trentino and Piedmont.</p></div><div class="card"><h3>The Centre</h3><p>Olive oil, handmade pasta and simple, ingredient-led cooking — Tuscan bistecca, Roman carbonara, Umbrian truffles.</p></div><div class="card"><h3>The South &amp; Islands</h3><p>Tomatoes, seafood and chilli heat — Neapolitan pizza, Calabrian 'nduja, Sicilian street food and Sardinian pecorino.</p></div></div>
   </div>
 </section>
-
-<section class="section section--dark">
+<section class="section section--tint">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="eyebrow">Live from Italy</div>
-        <h2>See it, right now</h2>
+        <div class="eyebrow">On the table nationwide</div>
+        <h2>Beyond the regional divide</h2>
       </div>
     </div>
-    <div class="notice-pending">Live cameras and streaming content are being added as each region goes live — check back soon, or be first to know via a region page.</div>
+    <div class="chip-list"><span class="chip">Espresso culture</span> <span class="chip">Aperitivo</span> <span class="chip">Sunday pasta</span> <span class="chip">Wine by region</span> <span class="chip">Olive oil</span> <span class="chip">Gelato</span> <span class="chip">Cheese &amp; cured meats</span> <span class="chip">Christmas panettone</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Explore by region</div>
+        <h2>Go deeper</h2>
+      </div>
+    </div>
+    <p style="max-width:70ch;color:var(--ink-soft);">Every region on OneClick Italy has its own food &amp; drink section — local dishes, wines and the festivals built around them. <a href="regions/index.html" style="color:var(--terracotta);font-weight:600;">Browse all 20 regions →</a></p>
   </div>
 </section>
 
@@ -135,6 +121,5 @@
 </footer>
 
 <script src="js/main.js"></script>
-<script src="js/italy-map.js"></script>
 </body>
 </html>
