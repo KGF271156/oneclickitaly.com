@@ -107,35 +107,18 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--paper);
   padding: 64px 0 56px;
 }
-/* Tricolore: green (left, behind the text), white (middle), red (right) */
-.hero::before, .hero::after {
+/* Red diagonal over green */
+.hero::before {
   content: "";
   position: absolute; inset: 0;
+  background: var(--flag-red);
+  clip-path: polygon(0 0, 62% 0, 50% 100%, 0 100%);
+  animation: hero-diagonal-shift 10s ease-in-out infinite;
   z-index: 0;
 }
-.hero::before {
-  background: #F7F1E2;
-  clip-path: polygon(63% 0, 100% 0, 100% 100%, 51% 100%);
-  animation: hero-white-shift 12s ease-in-out infinite;
-}
-.hero::after {
-  background: var(--flag-red);
-  clip-path: polygon(85% 0, 100% 0, 100% 100%, 73% 100%);
-  animation: hero-red-shift 12s ease-in-out infinite;
-}
-@keyframes hero-white-shift {
-  0%, 100% { clip-path: polygon(63% 0, 100% 0, 100% 100%, 51% 100%); }
-  50% { clip-path: polygon(66% 0, 100% 0, 100% 100%, 54% 100%); }
-}
-@keyframes hero-red-shift {
-  0%, 100% { clip-path: polygon(85% 0, 100% 0, 100% 100%, 73% 100%); }
-  50% { clip-path: polygon(88% 0, 100% 0, 100% 100%, 76% 100%); }
-}
-@media (max-width: 860px) {
-  /* Narrow screens: text spans the full width, so keep it on green and
-     show the white and red as a flag stripe along the bottom edge */
-  .hero::before { clip-path: polygon(0 calc(100% - 14px), 100% calc(100% - 14px), 100% calc(100% - 7px), 0 calc(100% - 7px)); animation: none; }
-  .hero::after { clip-path: polygon(0 calc(100% - 7px), 100% calc(100% - 7px), 100% 100%, 0 100%); animation: none; }
+@keyframes hero-diagonal-shift {
+  0%, 100% { clip-path: polygon(0 0, 62% 0, 50% 100%, 0 100%); }
+  50% { clip-path: polygon(0 0, 68% 0, 56% 100%, 0 100%); }
 }
 .hero .wrap { position: relative; z-index: 1; }
 .hero__eyebrow-flag {
@@ -250,3 +233,20 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Stat labels inside the hero need light text on the green */
 .hero .stat-row span { color: rgba(251,243,231,0.85); }
+
+/* ---------- Itinerary form ---------- */
+.form-note { background: var(--paper-dim); border-left: 4px solid var(--amalfi); border-radius: 8px; padding: 16px 20px; margin-bottom: 28px; font-size: 15px; color: var(--ink); }
+.form-section { background: #fff; border: 1px solid rgba(36,28,26,0.1); border-radius: 12px; padding: 22px 24px; margin-bottom: 18px; }
+.form-section h3 { margin: 0 0 14px; font-size: 20px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-weight: 600; font-size: 14px; }
+.field input, .field select, .field textarea { font: inherit; padding: 10px 12px; border: 1px solid rgba(36,28,26,0.25); border-radius: 8px; background: var(--paper); color: var(--ink); width: 100%; box-sizing: border-box; }
+.field textarea { min-height: 90px; resize: vertical; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--amalfi); outline-offset: 1px; }
+.hint { font-weight: 400; font-size: 13px; color: var(--ink-soft); }
+.check-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; }
+.check-item { display: flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid rgba(36,28,26,0.15); border-radius: 8px; background: var(--paper); cursor: pointer; font-size: 15px; }
+.check-item input { accent-color: var(--flag-green); }
+.form-submit-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+#itinerary-status { font-size: 14px; color: var(--ink-soft); }
