@@ -414,3 +414,18 @@ ul { margin: 0; padding: 0; list-style: none; }
 .empty-note a { color: var(--amalfi); font-weight: 600; }
 /* Notices on light sections need dark text (they were written for dark sections) */
 .section:not(.section--dark) .notice-pending { color: var(--ink-soft); border-color: rgba(36,28,26,0.25); }
+
+/* ---------- English / Italian switch ---------- */
+.lang-switch { display: inline-flex; flex-shrink: 0; border: 1.5px solid var(--ink); border-radius: 999px; overflow: hidden; margin-left: 4px; }
+.lang-switch button { background: transparent; border: 0; padding: 6px 10px; font: inherit; font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--ink); cursor: pointer; line-height: 1; }
+.lang-switch button + button { border-left: 1.5px solid var(--ink); }
+.lang-switch button[aria-pressed="true"] { background: var(--ink); color: var(--paper); cursor: default; }
+.lang-switch button:hover:not([aria-pressed="true"]) { background: var(--paper-dim); }
+.lang-switch button:focus-visible { outline: 2px solid var(--terracotta); outline-offset: -3px; }
+@media (max-width: 1180px) {
+  .lang-switch { margin-left: auto; }
+  .lang-switch + .nav-toggle { margin-left: 8px; }
+}
+/* While the Italian dictionary is applied, hide the page body (never the header) to avoid a flash of English. */
+html.i18n-pending body > :not(.site-header) { visibility: hidden; }
+html[lang="it"] .photo__img.is-missing::after { content: "Foto non disponibile"; }
