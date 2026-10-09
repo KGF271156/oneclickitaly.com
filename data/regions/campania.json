@@ -1,0 +1,573 @@
+{
+  "slug": "campania",
+  "name": "Campania",
+  "name_it": "Campania",
+  "adjective": "Campanian",
+  "eyebrow": "Southern Italy · Capital: Naples",
+  "title": "Campania —",
+  "title_em": "home of pizza and the Amalfi Coast.",
+  "tagline": "Vesuvius looming over Naples, Pompeii frozen in time, and a coastline — Amalfi, Sorrento, Capri — that needs no introduction.",
+  "stats": [
+    [
+      "5",
+      "provinces"
+    ],
+    [
+      "5.6M",
+      "residents"
+    ],
+    [
+      "79 AD",
+      "Vesuvius buries Pompeii"
+    ],
+    [
+      "1,281m",
+      "Mount Vesuvius"
+    ]
+  ],
+  "summary": [
+    "Greeks founded Naples as Neapolis, Romans built their summer villas around its bay, and for centuries it was the capital of a southern kingdom. The result is one of Europe's most vivid cities, surrounded by ancient ruins, volcanic islands and the Amalfi Coast.",
+    "Campania is also where the great migration began for millions. From the 1880s, ships left the port of Naples for New York and Buenos Aires, and Neapolitan families built Little Italy neighbourhoods, pizzerias and feast days that are still going strong."
+  ],
+  "map": {
+    "viewBox": "358 392 120 116",
+    "lon0": 12.42,
+    "x0": 297.7,
+    "pxPerLon": 51.3,
+    "lat0": 41.51,
+    "y0": 399.4,
+    "pxPerLat": 67.2,
+    "towns": [
+      {
+        "name": "Naples",
+        "lat": 40.852,
+        "lon": 14.268,
+        "capital": true,
+        "label": "left",
+        "note": "Regional capital. Spaccanapoli, the Archaeological Museum and the best pizza in the world."
+      },
+      {
+        "name": "Salerno",
+        "lat": 40.683,
+        "lon": 14.768,
+        "note": "Seafront city between the Amalfi Coast and the Cilento."
+      },
+      {
+        "name": "Caserta",
+        "lat": 41.073,
+        "lon": 14.333,
+        "note": "Home of the Royal Palace, built for the Bourbon kings."
+      },
+      {
+        "name": "Benevento",
+        "lat": 41.13,
+        "lon": 14.782,
+        "note": "Roman arch, Lombard church and the Strega liqueur."
+      },
+      {
+        "name": "Avellino",
+        "lat": 40.914,
+        "lon": 14.795,
+        "note": "Inland Irpinia, home of Taurasi and Fiano wines."
+      },
+      {
+        "name": "Pompeii",
+        "lat": 40.749,
+        "lon": 14.5,
+        "note": "The Roman city buried by Vesuvius in 79 AD."
+      },
+      {
+        "name": "Sorrento",
+        "lat": 40.626,
+        "lon": 14.376,
+        "label": "left",
+        "note": "Clifftop town of lemon groves and limoncello."
+      },
+      {
+        "name": "Amalfi",
+        "lat": 40.634,
+        "lon": 14.603,
+        "note": "Medieval sea republic and the coast's namesake.",
+        "label": "below"
+      },
+      {
+        "name": "Capri",
+        "lat": 40.551,
+        "lon": 14.243,
+        "label": "left",
+        "note": "Island of the Faraglioni rocks and the Blue Grotto."
+      },
+      {
+        "name": "Ischia",
+        "lat": 40.738,
+        "lon": 13.94,
+        "label": "left",
+        "note": "Volcanic island famous for its thermal gardens."
+      },
+      {
+        "name": "Paestum",
+        "lat": 40.422,
+        "lon": 15.005,
+        "note": "Three great Greek temples on the plain by the sea."
+      }
+    ],
+    "labels": [
+      {
+        "text": "Vesuvius",
+        "lat": 40.86,
+        "lon": 14.44,
+        "kind": "peak"
+      },
+      {
+        "text": "Tyrrhenian Sea",
+        "lat": 40.25,
+        "lon": 14.0,
+        "kind": "sea"
+      }
+    ]
+  },
+  "famous_for": [
+    {
+      "title": "Naples",
+      "text": "Chaotic, dense and endlessly alive: the birthplace of pizza, the Teatro di San Carlo opera house and a street life unlike anywhere else in Italy."
+    },
+    {
+      "title": "Pompeii and Herculaneum",
+      "text": "Entire Roman towns buried by Vesuvius in 79 AD and still being excavated today. A UNESCO World Heritage site."
+    },
+    {
+      "title": "The Amalfi Coast",
+      "text": "Cliff roads, lemon terraces and pastel towns stacked above the sea: Positano, Amalfi and Ravello."
+    },
+    {
+      "title": "Islands",
+      "text": "Capri, Ischia and Procida in the Gulf of Naples."
+    },
+    {
+      "title": "Greek temples",
+      "text": "Paestum's three Doric temples are among the best-preserved Greek buildings in the world."
+    },
+    {
+      "title": "Food",
+      "text": "Pizza napoletana, mozzarella di bufala, sfogliatella, babà and limoncello."
+    }
+  ],
+  "photos": [
+    {
+      "file": "Positano-Amalfi_Coast-Italy.jpg",
+      "caption": "Positano on the Amalfi Coast"
+    },
+    {
+      "file": "Pompeii_Forum_and_Vesuvius_(24124047176).jpg",
+      "caption": "The Forum at Pompeii, with Vesuvius behind"
+    },
+    {
+      "file": "Naples,_Italy,_A_view_over_Bay_of_Naples,_Port_of_Naples_and_Mt._Vesuvius.jpg",
+      "caption": "The Bay of Naples and Mount Vesuvius"
+    },
+    {
+      "file": "Reggia_di_caserta,_facciata.JPG",
+      "caption": "The Royal Palace of Caserta"
+    },
+    {
+      "file": "Tempio_di_Nettuno_-_Paestum.JPG",
+      "caption": "The Temple of Neptune at Paestum"
+    },
+    {
+      "file": "Faraglioni_di_Capri_al_Tramonto_da_Marina_Piccola.jpg",
+      "caption": "The Faraglioni rocks off Capri at sunset"
+    }
+  ],
+  "places": [
+    {
+      "name": "Pompeii and Herculaneum",
+      "where": "Bay of Naples",
+      "text": "Streets, houses and frescoes preserved by the eruption. Herculaneum is smaller and often better preserved."
+    },
+    {
+      "name": "Historic centre of Naples",
+      "where": "Naples",
+      "text": "Spaccanapoli, the underground city, nativity-maker workshops on Via San Gregorio Armeno and the Archaeological Museum."
+    },
+    {
+      "name": "Amalfi Coast",
+      "where": "Salerno",
+      "text": "Positano, Amalfi and Ravello by bus, ferry or the Path of the Gods walking trail."
+    },
+    {
+      "name": "Capri",
+      "where": "Gulf of Naples",
+      "text": "The Blue Grotto, the Faraglioni rocks and the chairlift up Monte Solaro."
+    },
+    {
+      "name": "Royal Palace of Caserta",
+      "where": "Caserta",
+      "text": "A Bourbon palace built to rival Versailles, with long cascading gardens. A UNESCO site."
+    },
+    {
+      "name": "Paestum",
+      "where": "Cilento",
+      "text": "Three Greek temples and a fine museum, a short trip south of Salerno."
+    },
+    {
+      "name": "Mount Vesuvius",
+      "where": "Naples",
+      "text": "A path leads up to the crater rim, with views across the whole bay."
+    },
+    {
+      "name": "Ischia and Procida",
+      "where": "Gulf of Naples",
+      "text": "Thermal gardens on Ischia and the colourful harbours of Procida."
+    },
+    {
+      "name": "Sorrento",
+      "where": "Sorrento peninsula",
+      "text": "A relaxed base for the coast and the islands, surrounded by lemon groves."
+    }
+  ],
+  "food": [
+    "Pizza napoletana",
+    "Mozzarella di bufala",
+    "Sfogliatella",
+    "Babà",
+    "Pastiera",
+    "Ragù napoletano",
+    "Spaghetti alle vongole",
+    "Limoncello",
+    "Taralli",
+    "Aglianico and Falanghina wines"
+  ],
+  "festivals": [
+    {
+      "name": "Festa di Sant'Antonio Abate",
+      "where": "Across Campania",
+      "month": 1,
+      "when": "17 January",
+      "text": "Bonfires and blessings of animals in towns across the region."
+    },
+    {
+      "name": "Holy Week processions",
+      "where": "Sorrento peninsula",
+      "month": 4,
+      "when": "Holy Week",
+      "text": "Hooded night processions through Sorrento and the nearby towns before Easter."
+    },
+    {
+      "name": "Festa dei Gigli",
+      "where": "Nola",
+      "month": 6,
+      "when": "June",
+      "text": "Towering wooden 'lilies' carried through the streets on men's shoulders. Recognised by UNESCO."
+    },
+    {
+      "name": "Ravello Festival",
+      "where": "Ravello",
+      "month": 7,
+      "when": "Summer",
+      "text": "Concerts on clifftop terraces above the Amalfi Coast."
+    },
+    {
+      "name": "Madonna del Carmine",
+      "where": "Naples",
+      "month": 7,
+      "when": "16 July",
+      "text": "Fireworks light up the bell tower of the Carmine church, an old Neapolitan tradition."
+    },
+    {
+      "name": "Festa di San Gennaro",
+      "where": "Naples and New York",
+      "month": 9,
+      "when": "19 September",
+      "text": "Naples' patron saint and the famous blood ritual. New York's Little Italy holds its own San Gennaro feast every September.",
+      "diaspora": true
+    },
+    {
+      "name": "Luci d'Artista",
+      "where": "Salerno",
+      "month": 11,
+      "when": "November to January",
+      "text": "Artists' light installations fill Salerno's streets through the winter."
+    },
+    {
+      "name": "Christmas on Via San Gregorio Armeno",
+      "where": "Naples",
+      "month": 12,
+      "when": "December",
+      "text": "The street of nativity makers, crowded with handmade presepe figures."
+    }
+  ],
+  "sport": {
+    "intro": "Football is close to a religion in Naples, where Diego Maradona led Napoli to their first league titles and the stadium now bears his name.",
+    "clubs": [
+      {
+        "name": "SSC Napoli",
+        "sport": "Football",
+        "ground": "Stadio Diego Armando Maradona, Naples"
+      },
+      {
+        "name": "US Salernitana",
+        "sport": "Football",
+        "ground": "Stadio Arechi, Salerno"
+      },
+      {
+        "name": "Juve Stabia",
+        "sport": "Football",
+        "ground": "Stadio Romeo Menti, Castellammare di Stabia"
+      },
+      {
+        "name": "Napoli Basket",
+        "sport": "Basketball",
+        "ground": "PalaBarbuto, Naples"
+      }
+    ]
+  },
+  "community": {
+    "intro": "Campanian families helped build Italian communities worldwide, from New York's Little Italy and San Gennaro feast to Buenos Aires, Brazil and the UK."
+  },
+  "ancestry": "Searching for Campanian ancestors? Civil records for Campania begin in 1809 and many are free to browse on Portale Antenati, Italy's state archive portal.",
+  "it": {
+    "name": "Campania",
+    "ph_from": "dalla Campania",
+    "ph_the": "la Campania",
+    "ph_of": "della Campania",
+    "people": "Campani",
+    "adjective": "campano",
+    "adj_fpl": "campane",
+    "eyebrow": "Italia meridionale · Capoluogo: Napoli",
+    "title": "Campania —",
+    "title_em": "patria della pizza e della Costiera Amalfitana.",
+    "tagline": "Il Vesuvio che domina Napoli, Pompei ferma nel tempo e una costa – Amalfi, Sorrento, Capri – che non ha bisogno di presentazioni.",
+    "stats": [
+      [
+        "5",
+        "province"
+      ],
+      [
+        "5,6 mln",
+        "abitanti"
+      ],
+      [
+        "79 d.C.",
+        "il Vesuvio seppellisce Pompei"
+      ],
+      [
+        "1.281 m",
+        "Vesuvio"
+      ]
+    ],
+    "summary": [
+      "I Greci fondarono Napoli come Neapolis, i Romani costruirono le loro ville estive intorno al golfo e per secoli fu la capitale di un regno del Sud. Il risultato è una delle città più vive d'Europa, circondata da rovine antiche, isole vulcaniche e dalla Costiera Amalfitana.",
+      "La Campania è anche il luogo da cui partì la grande emigrazione per milioni di persone. Dal 1880 le navi lasciavano il porto di Napoli per New York e Buenos Aires, e le famiglie napoletane costruirono Little Italy, pizzerie e feste patronali che sono ancora vivissime."
+    ],
+    "map": {
+      "towns": [
+        {
+          "name": "Napoli",
+          "note": "Capoluogo regionale. Spaccanapoli, il Museo Archeologico e la pizza migliore del mondo."
+        },
+        {
+          "note": "Città sul mare tra la Costiera Amalfitana e il Cilento."
+        },
+        {
+          "note": "Sede della Reggia, costruita per i re Borbone."
+        },
+        {
+          "note": "Arco romano, chiesa longobarda e il liquore Strega."
+        },
+        {
+          "note": "L'Irpinia interna, patria dei vini Taurasi e Fiano."
+        },
+        {
+          "name": "Pompei",
+          "note": "La città romana sepolta dal Vesuvio nel 79 d.C."
+        },
+        {
+          "note": "Città a picco sul mare, tra limoneti e limoncello."
+        },
+        {
+          "note": "Antica repubblica marinara che dà il nome alla costiera."
+        },
+        {
+          "note": "L'isola dei Faraglioni e della Grotta Azzurra."
+        },
+        {
+          "note": "Isola vulcanica famosa per i suoi giardini termali."
+        },
+        {
+          "note": "Tre grandi templi greci nella piana vicino al mare."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Vesuvio"
+        },
+        {
+          "text": "Mar Tirreno"
+        }
+      ]
+    },
+    "famous_for": [
+      {
+        "title": "Napoli",
+        "text": "Caotica, densa e sempre viva: la patria della pizza, del Teatro di San Carlo e di una vita di strada come nessun'altra in Italia."
+      },
+      {
+        "title": "Pompei ed Ercolano",
+        "text": "Intere città romane sepolte dal Vesuvio nel 79 d.C. e ancora oggi in fase di scavo. Sito Patrimonio UNESCO."
+      },
+      {
+        "title": "La Costiera Amalfitana",
+        "text": "Strade a strapiombo, terrazze di limoni e paesi color pastello sopra il mare: Positano, Amalfi e Ravello."
+      },
+      {
+        "title": "Isole",
+        "text": "Capri, Ischia e Procida nel Golfo di Napoli."
+      },
+      {
+        "title": "Templi greci",
+        "text": "I tre templi dorici di Paestum sono tra gli edifici greci meglio conservati al mondo."
+      },
+      {
+        "title": "Cucina",
+        "text": "Pizza napoletana, mozzarella di bufala, sfogliatella, babà e limoncello."
+      }
+    ],
+    "photos": [
+      {
+        "caption": "Positano sulla Costiera Amalfitana"
+      },
+      {
+        "caption": "Il Foro di Pompei, con il Vesuvio sullo sfondo"
+      },
+      {
+        "caption": "Il Golfo di Napoli e il Vesuvio"
+      },
+      {
+        "caption": "La Reggia di Caserta"
+      },
+      {
+        "caption": "Il Tempio di Nettuno a Paestum"
+      },
+      {
+        "caption": "I Faraglioni di Capri al tramonto"
+      }
+    ],
+    "places": [
+      {
+        "name": "Pompei ed Ercolano",
+        "where": "Golfo di Napoli",
+        "text": "Strade, case e affreschi conservati dall'eruzione. Ercolano è più piccola e spesso meglio conservata."
+      },
+      {
+        "name": "Centro storico di Napoli",
+        "where": "Napoli",
+        "text": "Spaccanapoli, la Napoli sotterranea, le botteghe dei presepi in via San Gregorio Armeno e il Museo Archeologico."
+      },
+      {
+        "name": "Costiera Amalfitana",
+        "text": "Positano, Amalfi e Ravello in autobus, in traghetto o lungo il Sentiero degli Dei."
+      },
+      {
+        "where": "Golfo di Napoli",
+        "text": "La Grotta Azzurra, i Faraglioni e la seggiovia sul Monte Solaro."
+      },
+      {
+        "name": "Reggia di Caserta",
+        "text": "Un palazzo borbonico costruito per rivaleggiare con Versailles, con lunghi giardini a cascata. Sito UNESCO."
+      },
+      {
+        "text": "Tre templi greci e un ottimo museo, poco a sud di Salerno."
+      },
+      {
+        "name": "Vesuvio",
+        "where": "Napoli",
+        "text": "Un sentiero sale fino all'orlo del cratere, con vista su tutto il golfo."
+      },
+      {
+        "name": "Ischia e Procida",
+        "where": "Golfo di Napoli",
+        "text": "I giardini termali di Ischia e i porticcioli colorati di Procida."
+      },
+      {
+        "where": "Penisola sorrentina",
+        "text": "Una base tranquilla per la costiera e le isole, circondata da limoneti."
+      }
+    ],
+    "food": [
+      "Pizza napoletana",
+      "Mozzarella di bufala",
+      "Sfogliatella",
+      "Babà",
+      "Pastiera",
+      "Ragù napoletano",
+      "Spaghetti alle vongole",
+      "Limoncello",
+      "Taralli",
+      "Vini Aglianico e Falanghina"
+    ],
+    "festivals": [
+      {
+        "where": "In tutta la Campania",
+        "when": "17 gennaio",
+        "text": "Falò e benedizione degli animali nei paesi di tutta la regione."
+      },
+      {
+        "name": "Processioni della Settimana Santa",
+        "where": "Penisola sorrentina",
+        "when": "Settimana Santa",
+        "text": "Processioni notturne di incappucciati a Sorrento e nei paesi vicini prima di Pasqua."
+      },
+      {
+        "when": "Giugno",
+        "text": "Altissimi 'gigli' di legno portati per le strade sulle spalle degli uomini. Riconosciuta dall'UNESCO."
+      },
+      {
+        "when": "Estate",
+        "text": "Concerti su terrazze a strapiombo sopra la Costiera Amalfitana."
+      },
+      {
+        "where": "Napoli",
+        "when": "16 luglio",
+        "text": "I fuochi d'artificio illuminano il campanile del Carmine, un'antica tradizione napoletana."
+      },
+      {
+        "where": "Napoli e New York",
+        "when": "19 settembre",
+        "text": "Il santo patrono di Napoli e il celebre miracolo del sangue. Anche la Little Italy di New York celebra la sua festa di San Gennaro ogni settembre."
+      },
+      {
+        "when": "Da novembre a gennaio",
+        "text": "Le installazioni luminose d'artista riempiono le strade di Salerno per tutto l'inverno."
+      },
+      {
+        "name": "Natale in via San Gregorio Armeno",
+        "where": "Napoli",
+        "when": "Dicembre",
+        "text": "La strada dei presepi, affollata di statuine fatte a mano."
+      }
+    ],
+    "sport": {
+      "intro": "A Napoli il calcio è quasi una religione: qui Diego Maradona portò il Napoli ai suoi primi scudetti e oggi lo stadio porta il suo nome.",
+      "clubs": [
+        {
+          "sport": "Calcio",
+          "ground": "Stadio Diego Armando Maradona, Napoli"
+        },
+        {
+          "sport": "Calcio"
+        },
+        {
+          "sport": "Calcio"
+        },
+        {
+          "sport": "Pallacanestro",
+          "ground": "PalaBarbuto, Napoli"
+        }
+      ]
+    },
+    "community": {
+      "intro": "Le famiglie campane hanno contribuito a costruire comunità italiane in tutto il mondo, dalla Little Italy di New York con la festa di San Gennaro a Buenos Aires, il Brasile e il Regno Unito."
+    },
+    "ancestry": "Cerchi antenati campani? Gli atti di stato civile della Campania iniziano nel 1809 e molti si possono consultare gratuitamente su Portale Antenati, il portale degli archivi di Stato."
+  }
+}
