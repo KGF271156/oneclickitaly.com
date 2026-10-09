@@ -5,6 +5,12 @@
                     "link", "source", "date" }, ... ] } */
 (function () {
   var ROOT = window.OCI_ROOT || '';
+  var T = window.OCI_T || function (x) { return x; };
+  var IT = window.OCI_LANG === 'it';
+  // Pick the story text in the visitor's language (Italian falls back to English).
+  function title(s) { return (IT && s.title_it) || s.title_en || s.title || ''; }
+  function summary(s) { return (IT && s.summary_it) || s.summary_en || ''; }
+  function cat(c) { return c ? T(c) : ''; }
 
 
   // The 20 regions, in one place for the News page and regional news pages.
@@ -41,10 +47,10 @@
     var t = Date.parse(d);
     if (isNaN(t)) return '';
     var mins = Math.round((Date.now() - t) / 60000);
-    if (mins < 60) return mins <= 1 ? 'just now' : mins + ' min ago';
-    if (mins < 1440) return Math.round(mins / 60) + ' h ago';
-    if (mins < 2880) return 'yesterday';
-    return new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+    if (mins < 60) return mins <= 1 ? T('just now') : T('{0} min ago', mins);
+    if (mins < 1440) return T('{0} h ago', Math.round(mins / 60));
+    if (mins < 2880) return T('yesterday');
+    return new Date(t).toLocaleDateString(IT ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'short' });
   }
 
   // Fetches one region's stories, newest first. Never throws: resolves [] if missing.
@@ -71,17 +77,18 @@
 
   function storyHTML(s, opts) {
     opts = opts || {};
-    var title = esc(s.title_en || s.title);
+    var titleTxt = esc(title(s));
     var url = safeUrl(s.link);
-    var meta = [s.category, s.source, when(s.date)].filter(Boolean).map(esc).join(' · ');
-    var head = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + title + '</a>' : title;
+    var meta = [cat(s.category), s.source, when(s.date)].filter(Boolean).map(esc).join(' · ');
+    var head = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + titleTxt + '</a>' : titleTxt;
     return '<article class="story' + (opts.compact ? ' story--compact' : '') + '">' +
       '<h3 class="story__title">' + head + '</h3>' +
-      (opts.compact ? '' : (s.summary_en ? '<p class="story__summary">' + esc(s.summary_en) + '</p>' : '')) +
+      (opts.compact ? '' : (summary(s) ? '<p class="story__summary">' + esc(summary(s)) + '</p>' : '')) +
       '<div class="story__meta">' + meta + '</div>' +
       '</article>';
   }
 
   window.OCINews = { load: load, storyHTML: storyHTML, esc: esc, when: when, safeUrl: safeUrl,
-    REGIONS: REGIONS, TABS: TABS, tabFor: tabFor };
+    REGIONS: REGIONS, TABS: TABS, tabFor: tabFor,
+    title: title, summary: summary, cat: cat };
 })();
