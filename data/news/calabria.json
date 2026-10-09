@@ -1,16 +1,566 @@
 {
-  "region": "Calabria",
-  "region_slug": "calabria",
-  "stories": [
+  "slug": "calabria",
+  "name": "Calabria",
+  "name_it": "Calabria",
+  "adjective": "Calabrian",
+  "eyebrow": "Southern Italy · Capital: Catanzaro",
+  "title": "Calabria —",
+  "title_em": "the toe of the boot.",
+  "tagline": "Two seas, wild mountains and a cuisine that runs hotter, literally, than anywhere else in Italy.",
+  "stats": [
+    [
+      "5",
+      "provinces"
+    ],
+    [
+      "1.8M",
+      "residents"
+    ],
+    [
+      "780km",
+      "of coastline"
+    ],
+    [
+      "2",
+      "seas: Tyrrhenian and Ionian"
+    ]
+  ],
+  "summary": [
+    "Calabria was the heart of Magna Graecia, the Greek colonies of southern Italy, and its museums hold treasures such as the Riace Bronzes. Inland, the Sila and Aspromonte mountains shelter hill villages, forests and some of Italy's least-visited landscapes.",
+    "Few regions sent more of their people abroad. Calabrians left in great numbers for the Americas from the 1880s and again after the Second World War for Australia, Canada, Germany and Switzerland. Their clubs, feast days and food remain a big part of Italian communities from Toronto to Melbourne."
+  ],
+  "map": {
+    "viewBox": "450 484 106 160",
+    "lon0": 12.42,
+    "x0": 297.7,
+    "pxPerLon": 51.3,
+    "lat0": 40.14,
+    "y0": 491.4,
+    "pxPerLat": 66.0,
+    "towns": [
+      {
+        "name": "Catanzaro",
+        "lat": 38.905,
+        "lon": 16.594,
+        "capital": true,
+        "note": "Regional capital, on a ridge between two seas.",
+        "label": "left"
+      },
+      {
+        "name": "Reggio Calabria",
+        "lat": 38.111,
+        "lon": 15.647,
+        "note": "Home of the Riace Bronzes, facing Sicily across the Strait."
+      },
+      {
+        "name": "Cosenza",
+        "lat": 39.298,
+        "lon": 16.254,
+        "label": "left",
+        "note": "Old town on a hill, gateway to the Sila mountains."
+      },
+      {
+        "name": "Crotone",
+        "lat": 39.081,
+        "lon": 17.127,
+        "label": "left",
+        "note": "Ancient Kroton, where Pythagoras founded his school."
+      },
+      {
+        "name": "Vibo Valentia",
+        "lat": 38.676,
+        "lon": 16.101,
+        "note": "Norman castle and views over the Costa degli Dei."
+      },
+      {
+        "name": "Tropea",
+        "lat": 38.678,
+        "lon": 15.898,
+        "label": "left",
+        "note": "Clifftop town above some of Italy's clearest water."
+      },
+      {
+        "name": "Scilla",
+        "lat": 38.254,
+        "lon": 15.716,
+        "label": "left",
+        "note": "Fishing village of Chianalea beneath Castello Ruffo."
+      },
+      {
+        "name": "Gerace",
+        "lat": 38.271,
+        "lon": 16.22,
+        "note": "Medieval hilltop town with a great Norman cathedral."
+      },
+      {
+        "name": "Rossano",
+        "lat": 39.576,
+        "lon": 16.635,
+        "note": "Byzantine town, home of the Codex Purpureus."
+      },
+      {
+        "name": "Diamante",
+        "lat": 39.678,
+        "lon": 15.818,
+        "label": "left",
+        "note": "Town of murals and the chilli pepper festival."
+      },
+      {
+        "name": "Le Castella",
+        "lat": 38.91,
+        "lon": 17.026,
+        "note": "Aragonese castle standing in the sea."
+      }
+    ],
+    "labels": [
+      {
+        "text": "Sila",
+        "lat": 39.32,
+        "lon": 16.5,
+        "kind": "peak"
+      },
+      {
+        "text": "Aspromonte",
+        "lat": 38.18,
+        "lon": 15.95,
+        "kind": "peak"
+      },
+      {
+        "text": "Tyrrhenian Sea",
+        "lat": 38.98,
+        "lon": 15.42,
+        "kind": "sea"
+      },
+      {
+        "text": "Ionian Sea",
+        "lat": 38.55,
+        "lon": 16.75,
+        "kind": "sea"
+      }
+    ]
+  },
+  "famous_for": [
     {
-      "date": "2026-10-09T08:59:21.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaEk2NVZuRWViaXFTNERuU013VW8tZ3hlbTN4X3ZOMFFNWFIyMlJldmZEMlNSdFpIamxoaVEyVVBwNXNTX1RkQ052ODBuVk9IMTBqV29mXzFydE84cWkwd0F0bDF0VTdmWXA3RUFiN0xabTRVSmtjeDAtVG5IeXE1bnRJN0V1RFlsN3UyYzNvSDBTRXNDNTZtUmRmRlQ3d1l3SjY0c0R4QXo0dXdvdEJiY2RMZ3psdDkyeFczcQ?oc=5",
-      "source": "Il Sole 24 ORE",
-      "category": "Community",
-      "title_en": "Reale Foundation supports humanisation of Reggio Calabria's Paediatrics ward",
-      "title_it": "Reale Foundation sostiene l'umanizzazione della Pediatria di Reggio Calabria",
-      "summary_en": "Reale Foundation is backing a project to make the Paediatrics department at a hospital in Reggio Calabria more welcoming and humane for young patients. The initiative aims to improve the care experience for children and their families.",
-      "summary_it": "Reale Foundation sostiene un progetto per rendere più accogliente e umana la Pediatria di un ospedale di Reggio Calabria. L'iniziativa punta a migliorare l'esperienza di cura per i bambini e le loro famiglie."
+      "title": "The Riace Bronzes",
+      "text": "Two Greek warrior statues found in the sea in 1972, now in the National Archaeological Museum in Reggio Calabria."
+    },
+    {
+      "title": "Tropea and the Costa degli Dei",
+      "text": "Clifftop Tropea and its red onions, above white beaches and turquoise water."
+    },
+    {
+      "title": "Sila and Aspromonte",
+      "text": "Two mountain national parks of pine forest, lakes and hill villages."
+    },
+    {
+      "title": "Magna Graecia",
+      "text": "Greek cities such as Kroton, Locri and Sybaris, and Greek-speaking villages that survive in the far south."
+    },
+    {
+      "title": "Chilli and 'nduja",
+      "text": "Calabrian cooking is famously fiery, from spreadable 'nduja to dried peppers on every balcony."
+    },
+    {
+      "title": "Bergamot",
+      "text": "Most of the world's bergamot grows along the coast near Reggio Calabria."
     }
-  ]
+  ],
+  "photos": [
+    {
+      "file": "Santa_Maria_dell'Isola_-_Tropea_-_Calabria_-_Italy_-_July_25th_2013_-_03.jpg",
+      "caption": "Santa Maria dell'Isola, Tropea"
+    },
+    {
+      "file": "Scilla_(RC)_-_la_chjanalèa_e_il_castello.jpg",
+      "caption": "Chianalea and the castle at Scilla"
+    },
+    {
+      "file": "20100803_La_Castella_Crotone_Calabria_Italy_1.jpg",
+      "caption": "The Aragonese castle at Le Castella"
+    },
+    {
+      "file": "Reggio_Calabria_-_Museo_archeologico_nazionale_-_Bronzi_di_Riace_-_11.jpg",
+      "caption": "The Riace Bronzes in Reggio Calabria"
+    },
+    {
+      "file": "Reggio_calabria_panorama_arena_dello_stretto.jpg",
+      "caption": "Reggio Calabria's seafront on the Strait of Messina"
+    },
+    {
+      "file": "Panorama_di_Locri,_Calabria.jpg",
+      "caption": "Locri on the Ionian coast"
+    }
+  ],
+  "places": [
+    {
+      "name": "Tropea",
+      "where": "Vibo Valentia",
+      "text": "Old town on the cliffs, the sanctuary of Santa Maria dell'Isola and beaches below."
+    },
+    {
+      "name": "Riace Bronzes",
+      "where": "Reggio Calabria",
+      "text": "The National Archaeological Museum of Magna Graecia, a short walk from the seafront promenade."
+    },
+    {
+      "name": "Scilla",
+      "where": "Reggio Calabria",
+      "text": "Swordfish restaurants on stilts in Chianalea, beneath the castle."
+    },
+    {
+      "name": "Sila National Park",
+      "where": "Cosenza and Catanzaro",
+      "text": "Lakes, pine forests and Camigliatello for walking, skiing and mushrooms in autumn."
+    },
+    {
+      "name": "Aspromonte",
+      "where": "Reggio Calabria",
+      "text": "Mountain paths, waterfalls and the abandoned village of Pentedattilo."
+    },
+    {
+      "name": "Le Castella",
+      "where": "Crotone",
+      "text": "A fortress on its own islet, inside a protected marine area."
+    },
+    {
+      "name": "Gerace",
+      "where": "Reggio Calabria",
+      "text": "Medieval lanes and one of the largest cathedrals in Calabria."
+    },
+    {
+      "name": "La Cattolica of Stilo",
+      "where": "Stilo",
+      "text": "A tiny Byzantine church of five domes on a hillside."
+    },
+    {
+      "name": "Capo Vaticano",
+      "where": "Vibo Valentia",
+      "text": "Granite cliffs, coves and sunset views towards Stromboli."
+    }
+  ],
+  "food": [
+    "'Nduja",
+    "Tropea red onions",
+    "Caciocavallo silano",
+    "Pecorino crotonese",
+    "Fileja pasta",
+    "Stocco di Mammola",
+    "Liquorice",
+    "Bergamot",
+    "Tartufo di Pizzo",
+    "Cirò wine"
+  ],
+  "festivals": [
+    {
+      "name": "Festa di San Francesco di Paola",
+      "where": "Paola and abroad",
+      "month": 4,
+      "when": "Early April and May",
+      "text": "Calabria's patron saint, honoured at his sanctuary in Paola and by Calabrian communities around the world.",
+      "diaspora": true
+    },
+    {
+      "name": "Holy Week traditions",
+      "where": "Across Calabria",
+      "month": 4,
+      "when": "Holy Week",
+      "text": "Processions and the Affruntata, the Easter 'meeting' of statues, in many towns."
+    },
+    {
+      "name": "Magna Graecia Film Festival",
+      "where": "Catanzaro",
+      "month": 7,
+      "when": "Summer",
+      "text": "International cinema on the Ionian coast."
+    },
+    {
+      "name": "Roccella Jazz Festival",
+      "where": "Roccella Ionica",
+      "month": 8,
+      "when": "August",
+      "text": "Jazz concerts by the sea in a long-running summer festival."
+    },
+    {
+      "name": "Sagra della 'Nduja",
+      "where": "Spilinga",
+      "month": 8,
+      "when": "August",
+      "text": "The home town of 'nduja celebrates its famous spicy salami."
+    },
+    {
+      "name": "Madonna di Polsi",
+      "where": "Aspromonte",
+      "month": 9,
+      "when": "Early September",
+      "text": "A great pilgrimage to a sanctuary deep in the mountains."
+    },
+    {
+      "name": "Peperoncino Festival",
+      "where": "Diamante",
+      "month": 9,
+      "when": "September",
+      "text": "Chilli eating contests, food stalls and music in the town of murals."
+    }
+  ],
+  "sport": {
+    "intro": "Calabrian football runs on fierce local loyalties, with Catanzaro, Reggina, Cosenza and Crotone each carrying their city's pride.",
+    "clubs": [
+      {
+        "name": "US Catanzaro",
+        "sport": "Football",
+        "ground": "Stadio Nicola Ceravolo, Catanzaro"
+      },
+      {
+        "name": "Reggina",
+        "sport": "Football",
+        "ground": "Stadio Oreste Granillo, Reggio Calabria"
+      },
+      {
+        "name": "Cosenza Calcio",
+        "sport": "Football",
+        "ground": "Stadio San Vito-Gigi Marulla, Cosenza"
+      },
+      {
+        "name": "FC Crotone",
+        "sport": "Football",
+        "ground": "Stadio Ezio Scida, Crotone"
+      }
+    ]
+  },
+  "community": {
+    "intro": "Calabrian clubs and associations are a mainstay of Italian community life in Toronto, Melbourne, New York, Buenos Aires and across Germany and Switzerland."
+  },
+  "ancestry": "Searching for Calabrian ancestors? Civil records for Calabria begin in 1809 and many are free to browse on Portale Antenati, Italy's state archive portal.",
+  "it": {
+    "name": "Calabria",
+    "ph_from": "dalla Calabria",
+    "ph_the": "la Calabria",
+    "ph_of": "della Calabria",
+    "people": "Calabresi",
+    "adjective": "calabrese",
+    "adj_fpl": "calabresi",
+    "eyebrow": "Italia meridionale · Capoluogo: Catanzaro",
+    "title": "Calabria —",
+    "title_em": "la punta dello stivale.",
+    "tagline": "Due mari, montagne selvagge e una cucina più piccante, letteralmente, di qualsiasi altra in Italia.",
+    "stats": [
+      [
+        "5",
+        "province"
+      ],
+      [
+        "1,8 mln",
+        "abitanti"
+      ],
+      [
+        "780 km",
+        "di costa"
+      ],
+      [
+        "2",
+        "mari: Tirreno e Ionio"
+      ]
+    ],
+    "summary": [
+      "La Calabria era il cuore della Magna Grecia, le colonie greche dell'Italia meridionale, e i suoi musei custodiscono tesori come i Bronzi di Riace. All'interno, la Sila e l'Aspromonte proteggono borghi collinari, foreste e alcuni dei paesaggi meno visitati d'Italia.",
+      "Poche regioni hanno visto partire così tanti dei propri abitanti. I calabresi emigrarono in gran numero verso le Americhe dal 1880 e di nuovo, dopo la Seconda guerra mondiale, verso Australia, Canada, Germania e Svizzera. I loro circoli, le feste patronali e la cucina restano una parte importante delle comunità italiane da Toronto a Melbourne."
+    ],
+    "map": {
+      "towns": [
+        {
+          "note": "Capoluogo regionale, su un crinale tra due mari."
+        },
+        {
+          "note": "Sede dei Bronzi di Riace, di fronte alla Sicilia oltre lo Stretto."
+        },
+        {
+          "note": "Città vecchia su un colle, porta d'accesso alla Sila."
+        },
+        {
+          "note": "L'antica Kroton, dove Pitagora fondò la sua scuola."
+        },
+        {
+          "note": "Castello normanno e vista sulla Costa degli Dei."
+        },
+        {
+          "note": "Città a picco sul mare sopra alcune delle acque più limpide d'Italia."
+        },
+        {
+          "note": "Il borgo di pescatori di Chianalea sotto Castello Ruffo."
+        },
+        {
+          "note": "Borgo medievale in collina con una grande cattedrale normanna."
+        },
+        {
+          "note": "Città bizantina, custode del Codex Purpureus."
+        },
+        {
+          "note": "La città dei murales e del festival del peperoncino."
+        },
+        {
+          "note": "Castello aragonese che sorge nel mare."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Sila"
+        },
+        {
+          "text": "Aspromonte"
+        },
+        {
+          "text": "Mar Tirreno"
+        },
+        {
+          "text": "Mar Ionio"
+        }
+      ]
+    },
+    "famous_for": [
+      {
+        "title": "I Bronzi di Riace",
+        "text": "Due statue greche di guerrieri trovate in mare nel 1972, oggi al Museo Archeologico Nazionale di Reggio Calabria."
+      },
+      {
+        "title": "Tropea e la Costa degli Dei",
+        "text": "Tropea a picco sul mare e le sue cipolle rosse, sopra spiagge bianche e acque turchesi."
+      },
+      {
+        "title": "Sila e Aspromonte",
+        "text": "Due parchi nazionali di montagna con pinete, laghi e borghi collinari."
+      },
+      {
+        "title": "Magna Grecia",
+        "text": "Città greche come Kroton, Locri e Sibari, e paesi di lingua greca che sopravvivono nell'estremo sud."
+      },
+      {
+        "title": "Peperoncino e 'nduja",
+        "text": "La cucina calabrese è famosa per il suo piccante, dalla 'nduja spalmabile ai peperoncini secchi su ogni balcone."
+      },
+      {
+        "title": "Bergamotto",
+        "text": "Gran parte del bergamotto del mondo cresce lungo la costa vicino a Reggio Calabria."
+      }
+    ],
+    "photos": [
+      {
+        "caption": "Santa Maria dell'Isola, Tropea"
+      },
+      {
+        "caption": "Chianalea e il castello di Scilla"
+      },
+      {
+        "caption": "Il castello aragonese di Le Castella"
+      },
+      {
+        "caption": "I Bronzi di Riace a Reggio Calabria"
+      },
+      {
+        "caption": "Il lungomare di Reggio Calabria sullo Stretto di Messina"
+      },
+      {
+        "caption": "Locri sulla costa ionica"
+      }
+    ],
+    "places": [
+      {
+        "text": "La città vecchia sulle scogliere, il santuario di Santa Maria dell'Isola e le spiagge sottostanti."
+      },
+      {
+        "name": "Bronzi di Riace",
+        "text": "Il Museo Archeologico Nazionale della Magna Grecia, a pochi passi dal lungomare."
+      },
+      {
+        "text": "Ristoranti di pesce spada su palafitte a Chianalea, sotto il castello."
+      },
+      {
+        "name": "Parco Nazionale della Sila",
+        "where": "Cosenza e Catanzaro",
+        "text": "Laghi, pinete e Camigliatello per camminare, sciare e raccogliere funghi in autunno."
+      },
+      {
+        "text": "Sentieri di montagna, cascate e il borgo abbandonato di Pentedattilo."
+      },
+      {
+        "text": "Una fortezza su un isolotto, all'interno di un'area marina protetta."
+      },
+      {
+        "text": "Vicoli medievali e una delle cattedrali più grandi della Calabria."
+      },
+      {
+        "name": "La Cattolica di Stilo",
+        "text": "Una minuscola chiesa bizantina a cinque cupole su un pendio."
+      },
+      {
+        "text": "Scogliere di granito, calette e tramonti con vista sullo Stromboli."
+      }
+    ],
+    "food": [
+      "'Nduja",
+      "Cipolla rossa di Tropea",
+      "Caciocavallo silano",
+      "Pecorino crotonese",
+      "Fileja",
+      "Stocco di Mammola",
+      "Liquirizia",
+      "Bergamotto",
+      "Tartufo di Pizzo",
+      "Vino Cirò"
+    ],
+    "festivals": [
+      {
+        "where": "Paola e all'estero",
+        "when": "Inizio aprile e maggio",
+        "text": "Il santo patrono della Calabria, onorato nel suo santuario a Paola e dalle comunità calabresi di tutto il mondo."
+      },
+      {
+        "name": "Tradizioni della Settimana Santa",
+        "where": "In tutta la Calabria",
+        "when": "Settimana Santa",
+        "text": "Processioni e l'Affruntata, l''incontro' pasquale delle statue, in molti paesi."
+      },
+      {
+        "when": "Estate",
+        "text": "Cinema internazionale sulla costa ionica."
+      },
+      {
+        "when": "Agosto",
+        "text": "Concerti jazz sul mare in uno storico festival estivo."
+      },
+      {
+        "when": "Agosto",
+        "text": "Il paese della 'nduja celebra il suo famoso salame piccante."
+      },
+      {
+        "when": "Inizio settembre",
+        "text": "Un grande pellegrinaggio a un santuario nel cuore delle montagne."
+      },
+      {
+        "name": "Festival del Peperoncino",
+        "when": "Settembre",
+        "text": "Gare di peperoncino, bancarelle e musica nella città dei murales."
+      }
+    ],
+    "sport": {
+      "intro": "Il calcio calabrese vive di accese fedeltà locali: Catanzaro, Reggina, Cosenza e Crotone portano ciascuna l'orgoglio della propria città.",
+      "clubs": [
+        {
+          "sport": "Calcio"
+        },
+        {
+          "sport": "Calcio"
+        },
+        {
+          "sport": "Calcio"
+        },
+        {
+          "sport": "Calcio"
+        }
+      ]
+    },
+    "community": {
+      "intro": "Circoli e associazioni calabresi sono un pilastro della vita comunitaria italiana a Toronto, Melbourne, New York, Buenos Aires e in tutta la Germania e la Svizzera."
+    },
+    "ancestry": "Cerchi antenati calabresi? Gli atti di stato civile della Calabria iniziano nel 1809 e molti si possono consultare gratuitamente su Portale Antenati, il portale degli archivi di Stato."
+  }
 }
