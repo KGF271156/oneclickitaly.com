@@ -6,6 +6,29 @@
 (function () {
   var ROOT = window.OCI_ROOT || '';
 
+
+  // The 20 regions, in one place for the News page and regional news pages.
+  var REGIONS = [
+    ['abruzzo','Abruzzo'],['aosta-valley','Aosta Valley'],['apulia','Apulia'],['basilicata','Basilicata'],
+    ['calabria','Calabria'],['campania','Campania'],['emilia-romagna','Emilia-Romagna'],
+    ['friuli-venezia-giulia','Friuli Venezia Giulia'],['lazio','Lazio'],['liguria','Liguria'],
+    ['lombardy','Lombardy'],['marche','Marche'],['molise','Molise'],['piedmont','Piedmont'],
+    ['sardinia','Sardinia'],['sicily','Sicily'],['trentino-south-tyrol','Trentino-South Tyrol'],
+    ['tuscany','Tuscany'],['umbria','Umbria'],['veneto','Veneto']
+  ];
+
+  // The five local-news sections. Make files each story under one of these.
+  var TABS = [['news','News'],['whats-on',"What's On"],['sport','Sport'],['discover','Discover'],['community','Community']];
+  // Older or looser category names are folded into the nearest section.
+  function tabFor(cat) {
+    var c = String(cat || '').toLowerCase();
+    if (/sport/.test(c)) return 'sport';
+    if (/what.?s on|event|festival|concert|exhibition/.test(c)) return 'whats-on';
+    if (/discover|travel|culture|food|heritage|tourism/.test(c)) return 'discover';
+    if (/community|people|school|charity/.test(c)) return 'community';
+    return 'news';
+  }
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -59,5 +82,6 @@
       '</article>';
   }
 
-  window.OCINews = { load: load, storyHTML: storyHTML, esc: esc, when: when, safeUrl: safeUrl };
+  window.OCINews = { load: load, storyHTML: storyHTML, esc: esc, when: when, safeUrl: safeUrl,
+    REGIONS: REGIONS, TABS: TABS, tabFor: tabFor };
 })();

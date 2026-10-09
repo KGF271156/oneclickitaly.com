@@ -1,14 +1,7 @@
 /* OneClick Italy – News page: national tile + one tile per region. */
 (function () {
   var N = window.OCINews, esc = N.esc;
-  var REGIONS = [
-    ['abruzzo','Abruzzo'],['aosta-valley','Aosta Valley'],['apulia','Apulia'],['basilicata','Basilicata'],
-    ['calabria','Calabria'],['campania','Campania'],['emilia-romagna','Emilia-Romagna'],
-    ['friuli-venezia-giulia','Friuli Venezia Giulia'],['lazio','Lazio'],['liguria','Liguria'],
-    ['lombardy','Lombardy'],['marche','Marche'],['molise','Molise'],['piedmont','Piedmont'],
-    ['sardinia','Sardinia'],['sicily','Sicily'],['trentino-south-tyrol','Trentino-South Tyrol'],
-    ['tuscany','Tuscany'],['umbria','Umbria'],['veneto','Veneto']
-  ];
+  var REGIONS = N.REGIONS;
 
   // National tile
   var nat = document.getElementById('national-news');
@@ -31,13 +24,13 @@
     });
     grid.innerHTML = rows.map(function (r) {
       if (!r.top) {
-        return '<a class="rtile rtile--soon" href="regions/' + r.slug + '.html">' +
+        return '<a class="rtile rtile--soon" href="news-region.html?r=' + r.slug + '">' +
           '<div class="rtile__name">' + esc(r.name) + '</div>' +
           '<div class="rtile__head">Local news coming soon</div>' +
-          '<div class="rtile__meta">Visit the region page →</div></a>';
+          '<div class="rtile__meta">Local news page →</div></a>';
       }
       var s = r.top;
-      return '<a class="rtile" href="regions/' + r.slug + '.html#news">' +
+      return '<a class="rtile" href="news-region.html?r=' + r.slug + '">' +
         '<div class="rtile__name">' + esc(r.name) + '<span class="rtile__live">● Live</span></div>' +
         '<div class="rtile__head">' + esc(s.title_en || s.title) + '</div>' +
         '<div class="rtile__meta">' + [s.source, N.when(s.date)].filter(Boolean).map(esc).join(' · ') + '</div></a>';
