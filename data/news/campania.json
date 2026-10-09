@@ -1,4 +1,16 @@
 {
   "region": "Campania",
   "region_slug": "campania",
-  "stories": [,{"date":"2026-10-09T10:38:05.000Z","link":"https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNMaDdZYlZaallwLUhxbEhETDNncXBNVWZQSXZ1RXpVOUQtbHhBV2hfdFpsdUk1a3NMOFc5RUZMT0NKamljWEc2LTFsdkl0cEdqNmdJeFFucmlKTXcyaFhPQTd1UjZham1ObW5WdmVnRWNGNnVSYk96cFZwOFJwQ2tXUWc5WWQ4X2J5X05OcnRiYlpsT1kwcG0xLWpyaUZDbnVwN2xDdjcwb3VxQW05dzEtWQ?oc=5","source":"RaiPlay","category":"News","title_en":"TGR Campania, 8 October 2026, 2:00 PM edition - Video","title_it":"TGR Campania del 08/10/2026 ore 14:00 - Video","summary_en":"This is a video news bulletin from the regional TV programme TGR Campania, broadcast at 2:00 PM on 8 October 2026. No further details are given.","summary_it":"Si tratta di un notiziario video del programma regionale TGR Campania, andato in onda alle ore 14:00 dell'8 ottobre 2026. Non sono forniti ulteriori dettagli."},{"date":"2026-10-09T08:40:03.000Z","link":"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZllVVzVnXzE5ZlhkZURMcE9rSFBjRmt1UEhWU2NiNF9BRGNqSmVaXzVyLWNEb1l4TWFKV0RKTHRkTkwxNEIwNUx1ZzF5ZVJFaEJhVUE5UFdfcHVVZE5UQlpVRTFTa0t2enlGU1VrZmJoZmtDYzNlNnd0TVFHb2w1V0tEYkRGZWFYaDBhcWxJVkJyTFdlRFZjOEE4WV9GN01xTzMxdll2LWVhbWw5WTdHUlRPd3hrTjAyWTJYMEFSTjY?oc=5","source":"Sky TG24","category":"News","title_en":"Bad weather in Campania, lightning strikes church dome in Ischia","title_it":"Maltempo in Campania, fulmine colpisce cupola di una chiesa a Ischia","summary_en":"Severe weather hit Campania, and lightning struck the dome of a church in Ischia. No further details were given.","summary_it":"Il maltempo ha colpito la Campania e un fulmine ha colpito la cupola di una chiesa a Ischia. Non sono stati forniti ulteriori dettagli."}]}
+  "stories": [
+    {
+      "date": "2026-10-09T08:40:03.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZllVVzVnXzE5ZlhkZURMcE9rSFBjRmt1UEhWU2NiNF9BRGNqSmVaXzVyLWNEb1l4TWFKV0RKTHRkTkwxNEIwNUx1ZzF5ZVJFaEJhVUE5UFdfcHVVZE5UQlpVRTFTa0t2enlGU1VrZmJoZmtDYzNlNnd0TVFHb2w1V0tEYkRGZWFYaDBhcWxJVkJyTFdlRFZjOEE4WV9GN01xTzMxdll2LWVhbWw5WTdHUlRPd3hrTjAyWTJYMEFSTjY?oc=5",
+      "source": "Sky TG24",
+      "category": "News",
+      "title_en": "Bad weather in Campania, lightning strikes church dome in Ischia",
+      "title_it": "Maltempo in Campania, fulmine colpisce cupola di una chiesa a Ischia",
+      "summary_en": "Severe weather hit Campania, and lightning struck the dome of a church in Ischia.",
+      "summary_it": "Il maltempo ha colpito la Campania e un fulmine ha colpito la cupola di una chiesa a Ischia."
+    }
+  ]
+}
